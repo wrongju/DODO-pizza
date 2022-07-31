@@ -1,0 +1,280 @@
+body {
+   margin: 0;
+}
+
+main {
+   padding: 0 15.3%;
+}
+
+.pizza_title {
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.gap {
+   margin-top: -9px;
+}
+
+.pizzacl {
+   margin-top: 60px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 80px;
+}
+
+.pizza_img {
+   width: 270px;
+   transition: 0.3s ease;
+}
+
+.pizza_img:hover {
+   transform: translateY(4px);
+   cursor: pointer;
+}
+
+.h2piz {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.price {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.cena {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: auto;
+}
+
+.spizza {
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.715);
+   margin-top: -1px;
+}
+
+.h2piz {
+   margin: 7px 0px;
+}
+
+.h2piz2 {
+   font-size: 18px;
+}
+
+.sobrat {
+   border: none;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 12px 26px;
+   color: white;
+   border-radius: 9999px;
+   background-color: #FF6900;
+   transition: 0.3s ease;
+   cursor: pointer;
+}
+
+.sobrat:hover {
+   background-color: #e76203;
+}
+
+.sobratl {
+   border: none;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 12px 26px;
+   color: rgb(209, 87, 0);
+   border-radius: 9999px;
+   background-color: rgb(255, 240, 230);
+   transition: 0.3s ease;
+}
+
+.sobratl:hover {
+   background-color: #e762034b;
+   cursor: pointer;
+}
+
+.gap {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+}
+
+.art_pizza {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto 1fr;
+}
+
+.list-name__dost {
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 80px;
+}
+
+.list-name__dostav {
+   font-weight: 500;
+   line-height: 1.4;
+}
+
+.title1 {
+   color: #FF6900;
+   font-size: 17px;
+   display: flex;
+   padding: 0;
+}
+
+.title2 {
+   font-size: 16px;
+}
+
+.pnames {
+   margin-top: -10px;
+   line-height: 1.4;
+   font-weight: 600;
+}
+
+.list_names {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 55px;
+}
+
+.dodomap {
+   width: 100%;
+   height: 100%;
+   background: none;
+   border: none;
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+   margin-top: -15px;
+   border-radius: 15px;
+   width: 250px;
+   height: 250px;
+}
+
+.dodoimg {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   transition: 7s ease;
+   transform: scale(1.1);
+}
+
+.dodomap:hover .dodoimg {
+   transform: scale(2);
+}
+
+.filtr:hover {
+   filter: saturate(180%);
+}
+
+.dodomap_title-span {
+   position: absolute;
+   left: 0;
+   top: 45%;
+   font-size: 18px;
+   width: 100%;
+   line-height: 1.6;
+}
+
+.agent_footer-1 {
+   padding: 0 15.3%;
+   background-color: #FF6900;
+   display: flex;
+   align-items: center;
+   margin: 17px 0;
+   font-size: 18px;
+   color: white;
+}
+
+.agent_footer-2 {
+   padding: 0;
+   margin-left: 20px;
+}
+
+.agent_footer {
+   margin-top: 15px;
+
+}
+
+.ancets {
+   background-color: rgb(255, 240, 230);
+   color: rgb(209, 87, 0);
+   border: none;
+   padding: 11px 17px;
+   border-radius: 9999px;
+   font-size: 14px;
+   display: flex;
+   justify-content: right;
+   margin-left: 35%;
+   transition: 0.3s ease;
+}
+
+.ancets:hover {
+   cursor: pointer;
+   background-color: rgba(255, 240, 230, 0.714);
+}
+
+.footer_onas {
+   background-color: rgb(24, 24, 24);
+   margin-top: -17px;
+   color: white;
+   padding: 0 15.3%;
+   display: flex;
+   grid-row: auto;
+   gap: 110px;
+}
+
+.links_section {
+   line-height: 1.2;
+   margin-bottom: 50px;
+   display: grid;
+   grid: 15px;
+
+}
+
+.footer_link {
+   color: rgba(255, 255, 255, 0.652);
+   text-decoration: none;
+   line-height: 1.2;
+   font-size: 13px;
+   font-weight: 600;
+   transition: 0.2s ease;
+}
+
+.footer_link:hover {
+   color: white;
+}
+
+.pizka {
+   margin-top: -37px;
+}
+
+.links_section_title {
+   margin-top: 15px;
+   margin-bottom: 5px;
+}
+
+.social {
+   display: flex;
+   justify-content: end;
+}
+
+.social {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+}
+
+.social_list {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.appgalery {
+   display: flex;
+   
+}
